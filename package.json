@@ -1,0 +1,71 @@
+{
+  "name": "clean-code-learning",
+  "version": "1.0.0",
+  "description": "A comprehensive learning resource for clean code principles with examples and notes",
+  "main": "README.md",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "validate": "npm run lint"
+  },
+  "keywords": [
+    "clean-code",
+    "programming",
+    "best-practices",
+    "code-quality",
+    "refactoring",
+    "naming-conventions",
+    "software-engineering",
+    "learning",
+    "tutorial",
+    "examples"
+  ],
+  "author": "Deniz Cansever",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/denizcansever/clean-code.git"
+  },
+  "bugs": {
+    "url": "https://github.com/denizcansever/clean-code/issues"
+  },
+  "homepage": "https://github.com/denizcansever/clean-code#readme",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^8.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "prettier": {
+    "semi": true,
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "printWidth": 80,
+    "tabWidth": 2
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "prettier"
+    ],
+    "env": {
+      "node": true,
+      "es2021": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2021,
+      "sourceType": "module"
+    },
+    "rules": {
+      "no-unused-vars": "warn",
+      "no-console": "off",
+      "prefer-const": "error",
+      "no-var": "error"
+    }
+  }
+} 
