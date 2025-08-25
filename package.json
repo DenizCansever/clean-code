@@ -35,7 +35,7 @@
     "eslint": "^8.0.0",
     "eslint-config-prettier": "^8.0.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "prettier": "^2.0.0"
+    "prettier": "^3.6.2"
   },
   "engines": {
     "node": ">=14.0.0",
@@ -45,7 +45,7 @@
     "semi": true,
     "trailingComma": "es5",
     "singleQuote": true,
-    "printWidth": 80,
+    "printWidth": 120,
     "tabWidth": 2
   },
   "eslintConfig": {
@@ -68,4 +68,4 @@
       "no-var": "error"
     }
   }
-} 
+}

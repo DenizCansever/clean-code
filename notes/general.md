@@ -12,11 +12,11 @@
 
 ### Key Distinctions
 
-| Concept | Definition | Focus |
-|---------|------------|-------|
-| **Clean Code** | Write code that is readable and easy to understand | How to write the code |
-| **Patterns & Principles** | Write code that is maintainable and extensible | Architecture and design |
-| **Clean Architecture** | Where to write which code | Code organization |
+| Concept                   | Definition                                         | Focus                   |
+| ------------------------- | -------------------------------------------------- | ----------------------- |
+| **Clean Code**            | Write code that is readable and easy to understand | How to write the code   |
+| **Patterns & Principles** | Write code that is maintainable and extensible     | Architecture and design |
+| **Clean Architecture**    | Where to write which code                          | Code organization       |
 
 ### Important Notes
 
@@ -108,16 +108,19 @@
 ## 🎓 Resources for Further Learning
 
 ### Books
+
 - **Clean Code** by Robert C. Martin
 - **Refactoring** by Martin Fowler
 - **Clean Architecture** by Robert C. Martin
 
 ### Online Resources
+
 - **SOLID Principles** guides and tutorials
 - **Design Patterns** documentation
 - **Code Review** best practices
 
 ### Practice
+
 - **Code Katas** - Small programming exercises
 - **Open Source** contributions
 - **Pair Programming** with experienced developers

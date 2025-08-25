@@ -51,10 +51,10 @@ validateEmail();
 ### ❌ Poor Examples
 
 ```js
-process();      // What is being processed?
-handle();       // What is being handled?
-check();        // What is being checked?
-get();          // What is being retrieved?
+process(); // What is being processed?
+handle(); // What is being handled?
+check(); // What is being checked?
+get(); // What is being retrieved?
 ```
 
 ## 🏗️ Classes
@@ -83,12 +83,12 @@ class Utils {...}          // What utilities?
 
 ## 📝 Name Casing Conventions
 
-| Convention   | Usage                                             | Examples                          |
-| ------------ | ------------------------------------------------- | --------------------------------- |
-| `snake_case` | Python variables, functions, methods              | `is_valid`, `send_response`       |
-| `camelCase`  | Java and JavaScript variables, functions, methods | `isValid`, `sendResponse`         |
-| `PascalCase` | Classes in Python, Java, and JavaScript           | `User`, `Product`                 |
-| `kebab-case` | Custom HTML elements                              | `<side-drawer>`, `<user-profile>` |
+| Convention   | Usage                                             | Examples                             |
+| ------------ | ------------------------------------------------- | ------------------------------------ |
+| `snake_case` | Python variables, functions, methods              | `is_valid`, `send_response`          |
+| `camelCase`  | Java and JavaScript variables, functions, methods | `isValid`, `sendResponse`            |
+| `PascalCase` | Classes in Python, Java, and JavaScript           | `User`, `Product`                    |
+| `kebab-case` | Custom HTML elements                              | `<side-drawer>`, `<user-profile>`    |
 | `UPPER_CASE` | Constants (JavaScript, Python)                    | `MAX_RETRY_ATTEMPTS`, `API_BASE_URL` |
 
 ## 🎯 Naming Guidelines
@@ -100,6 +100,7 @@ class Utils {...}          // What utilities?
 ## 🔧 Naming Functions & Methods
 
 There are **2 types** of functions:
+
 1. **Functions that perform an operation**
 2. **Functions that compute a boolean**
 
@@ -110,19 +111,19 @@ There are **2 types** of functions:
 #### ✅ Good Examples
 
 ```js
-getUser()
-response.send()
-getUserByEmail();        // More specific
-sendEmailToUser();       // More specific
-calculateTotalPrice();   // More specific
+getUser();
+response.send();
+getUserByEmail(); // More specific
+sendEmailToUser(); // More specific
+calculateTotalPrice(); // More specific
 ```
 
 #### ❌ Poor Examples
 
 ```js
-process();              // Very unspecific
-handle();               // Very unspecific
-doSomething();          // Unclear what it does
+process(); // Very unspecific
+handle(); // Very unspecific
+doSomething(); // Unclear what it does
 ```
 
 ### 2️⃣ Functions That Compute Booleans
@@ -132,19 +133,19 @@ doSomething();          // Unclear what it does
 #### ✅ Good Examples
 
 ```js
-isValid()
-purchase.isPaid()
-emailIsValid()          // More specific
-user.isAuthenticated()  // More specific
-order.isComplete()      // More specific
+isValid();
+purchase.isPaid();
+emailIsValid(); // More specific
+user.isAuthenticated(); // More specific
+order.isComplete(); // More specific
 ```
 
 #### ❌ Poor Examples
 
 ```js
-check();                // What is being checked?
-validate();             // What is being validated?
-process();              // Unclear what it processes
+check(); // What is being checked?
+validate(); // What is being validated?
+process(); // Unclear what it processes
 ```
 
 ## 🏛️ Naming Classes
@@ -154,21 +155,21 @@ process();              // Unclear what it processes
 ### ✅ Good Examples
 
 ```js
-class User {}           // Clear and simple
-class Product {}        // Clear and simple
-class Customer {}       // More specific than User
-class Course {}         // More specific than Product
+class User {} // Clear and simple
+class Product {} // Clear and simple
+class Customer {} // More specific than User
+class Course {} // More specific than Product
 class EmailValidator {} // Describes its purpose
 ```
 
 ### ❌ Poor Examples
 
 ```js
-class UEntity {}        // Unclear abbreviation
-class ObjA {}           // Meaningless name
-class Data {}           // Too generic
-class Manager {}        // What does it manage?
-class Helper {}         // What does it help with?
+class UEntity {} // Unclear abbreviation
+class ObjA {} // Meaningless name
+class Data {} // Too generic
+class Manager {} // What does it manage?
+class Helper {} // What does it help with?
 ```
 
 ### 🚫 Avoid Redundant Suffixes
@@ -177,14 +178,14 @@ Classes are typically instantiated, so avoid redundant suffixes:
 
 ```js
 // ❌ Bad - Redundant suffixes
-class DatabaseManager {}    // Instantiating a "DatabaseManager" makes no sense
-class UserObject {}         // Redundant - classes are already objects
-class ProductClass {}       // Redundant - it's already a class
+class DatabaseManager {} // Instantiating a "DatabaseManager" makes no sense
+class UserObject {} // Redundant - classes are already objects
+class ProductClass {} // Redundant - it's already a class
 
 // ✅ Good - Clean and clear
-class Database {}           // Clear and simple
-class User {}               // Clear and simple
-class Product {}            // Clear and simple
+class Database {} // Clear and simple
+class User {} // Clear and simple
+class Product {} // Clear and simple
 ```
 
 ## 📋 Quick Reference

@@ -47,6 +47,7 @@ clean-code/
 ### 🚀 Getting Started
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/yourusername/clean-code.git
    cd clean-code
@@ -104,14 +105,17 @@ Your future self (and others) will thank you! 🎉
 ## 🎁 Resources
 
 ### 📚 Recommended Reading
+
 - [**Clean Code** by Robert C. Martin](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/)
 - [**Refactoring** by Martin Fowler](https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599)
 
 ### 🎥 Course Materials
+
 - [**Udemy Course: Writing Clean Code – Academind**](https://www.udemy.com/course/writing-clean-code)
 - [**Course GitHub repo:** academind/clean-code-course-code](https://github.com/academind/clean-code-course-code)
 
 ### 🔗 Additional Resources
+
 - [**SOLID Principles Guide**](https://en.wikipedia.org/wiki/SOLID)
 - [**Clean Architecture** by Robert C. Martin](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164)
 
@@ -146,6 +150,6 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for details.
 [![GitHub forks](https://img.shields.io/github/forks/denizcansever/clean-code?style=social)](https://github.com/denizcansever/clean-code)
 [![GitHub issues](https://img.shields.io/github/issues/denizcansever/clean-code)](https://github.com/denizcansever/clean-code/issues)
 
-*Made with ❤️ for the developer community*
+_Made with ❤️ for the developer community_
 
 </div>

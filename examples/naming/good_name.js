@@ -258,11 +258,7 @@ for (let userIndex = 0; userIndex < userList.length; userIndex++) {
 
 // ✅ Nested loop naming
 for (let rowIndex = 0; rowIndex < matrix.length; rowIndex++) {
-  for (
-    let columnIndex = 0;
-    columnIndex < matrix[rowIndex].length;
-    columnIndex++
-  ) {
+  for (let columnIndex = 0; columnIndex < matrix[rowIndex].length; columnIndex++) {
     const currentCell = matrix[rowIndex][columnIndex];
     // Process current cell
   }

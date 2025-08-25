@@ -23,7 +23,7 @@ const us = new MainEntity();
 us.process();
 
 if (login) {
-    // ... code here
+  // ... code here
 }
 
 // ❌ A user object (name, email, age)
@@ -83,59 +83,59 @@ const j = 1;
 
 // ❌ Very unspecific function names
 function process() {
-    // Process something...
-    return true;
+  // Process something...
+  return true;
 }
 
 function handle() {
-    // Handle something...
-    return true;
+  // Handle something...
+  return true;
 }
 
 function doSomething() {
-    // Do something...
-    return true;
+  // Do something...
+  return true;
 }
 
 function check() {
-    // Check something...
-    return true;
+  // Check something...
+  return true;
 }
 
 // ❌ Redundant suffixes - classes are already objects
 class UserObj {
-    constructor() {
-        // User object constructor
-    }
+  constructor() {
+    // User object constructor
+  }
 }
 
 class ProductClass {
-    constructor() {
-        // Product class constructor
-    }
+  constructor() {
+    // Product class constructor
+  }
 }
 
 // ❌ Too generic configuration
 const config = {
-    url: 'https://api.example.com',
-    key: 'abc123',
-    timeout: 5000,
-    retries: 3,
-    flag: true
+  url: 'https://api.example.com',
+  key: 'abc123',
+  timeout: 5000,
+  retries: 3,
+  flag: true,
 };
 
 // ❌ Generic parameter names
 function processData(data) {
-    // Process the data
-    return data;
+  // Process the data
+  return data;
 }
 
 function calculate(a, b, c) {
-    return a + b * c;
+  return a + b * c;
 }
 
 function validate(x, y, z) {
-    return x && y && z;
+  return x && y && z;
 }
 
 // ============================================================================
@@ -149,8 +149,8 @@ const boolIsActive = true;
 
 // ❌ Inconsistent naming
 const userName = 'John';
-const user_age = 30;  // Mixed camelCase and snake_case
-const UserEmail = 'john@example.com';  // Mixed camelCase and PascalCase
+const user_age = 30; // Mixed camelCase and snake_case
+const UserEmail = 'john@example.com'; // Mixed camelCase and PascalCase
 
 // ❌ Overly abbreviated
 const usrProf = { name: 'John', age: 30 };
@@ -158,8 +158,8 @@ const prodLst = ['apple', 'banana'];
 const authTok = 'abc123';
 
 // ❌ Misleading names
-const isValid = false;  // Boolean is false but name suggests it's valid
-const isEmpty = ['item1', 'item2'];  // Array has items but name suggests it's empty
+const isValid = false; // Boolean is false but name suggests it's valid
+const isEmpty = ['item1', 'item2']; // Array has items but name suggests it's empty
 
 // ============================================================================
 // SUMMARY OF MISTAKES
