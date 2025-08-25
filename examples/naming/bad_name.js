@@ -169,30 +169,30 @@ const isEmpty = ['item1', 'item2']; // Array has items but name suggests it's em
 ❌ COMMON NAMING MISTAKES TO AVOID:
 
 1. Too Generic Names:
-   - data, list, flag, num, str
-   - Use specific names that describe the content
+  - data, list, flag, num, str
+  - Use specific names that describe the content
 
 2. Unclear Abbreviations:
-   - usr, pwd, tmp, arr
-   - Use full words unless abbreviations are widely understood
+  - usr, pwd, tmp, arr
+  - Use full words unless abbreviations are widely understood
 
 3. Single Letter Variables:
-   - x, y, i, j (except in loops)
-   - Use descriptive names that explain the purpose
+  - x, y, i, j (except in loops)
+  - Use descriptive names that explain the purpose
 
 4. Generic Function Names:
-   - process(), handle(), check()
-   - Use specific verbs that describe the action
+  - process(), handle(), check()
+  - Use specific verbs that describe the action
 
 5. Redundant Suffixes:
-   - UserObj, ProductClass
-   - Classes are already objects, no need for redundant suffixes
+  - UserObj, ProductClass
+  - Classes are already objects, no need for redundant suffixes
 
 6. Inconsistent Naming:
-   - Mixing camelCase, snake_case, PascalCase
-   - Stick to your language's conventions
+  - Mixing camelCase, snake_case, PascalCase
+  - Stick to your language's conventions
 
 7. Misleading Names:
-   - isValid = false, isEmpty = ['item1']
-   - Names should accurately reflect the content
+  - isValid = false, isEmpty = ['item1']
+  - Names should accurately reflect the content
 */
